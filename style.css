@@ -528,50 +528,77 @@ section{
     text-align:center;
 }
 
-.sponsors h2{
+.hackathon{
+    padding:100px 8%;
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+.hackathon-content{
+    max-width:1200px;
+    margin:auto;
+}
+
+.hackathon h2{
     font-size:42px;
-    color:#0f172a;
-    margin-bottom:15px;
-}
-
-.sponsor-subtitle{
-    color:#64748b;
-    font-size:18px;
-    margin-bottom:60px;
-}
-
-.sponsor-container{
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:30px;
-}
-
-.sponsor-card{
-    background:#f8fafc;
-    padding:35px 25px;
-    border-radius:16px;
-    box-shadow:0 8px 20px rgba(0,0,0,.08);
-    transition:.3s;
-}
-
-.sponsor-card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 15px 35px rgba(0,0,0,.15);
-}
-
-.sponsor-card i{
-    font-size:50px;
-    color:#2563eb;
     margin-bottom:20px;
 }
 
-.sponsor-card h3{
-    font-size:24px;
-    color:#0f172a;
-    margin-bottom:10px;
+.hackathon-subtitle{
+    max-width:700px;
+    margin:0 auto 60px;
+    color:#cbd5e1;
+    font-size:18px;
 }
 
-.sponsor-card p{
-    color:#64748b;
+.hackathon-cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    margin-bottom:50px;
+}
+
+.hack-card{
+    background:#1e293b;
+    padding:35px 25px;
+    border-radius:16px;
+    transition:.3s;
+}
+
+.hack-card:hover{
+    transform:translateY(-8px);
+    background:#2563eb;
+}
+
+.hack-card i{
+    font-size:45px;
+    color:#60a5fa;
+    margin-bottom:20px;
+}
+
+.hack-card h3{
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.hack-card p{
+    color:#e2e8f0;
+    line-height:1.8;
     font-size:15px;
+}
+
+.hack-btn{
+    display:inline-block;
+    padding:15px 40px;
+    background:#2563eb;
+    color:white;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.hack-btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-4px);
 }
