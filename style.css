@@ -434,3 +434,86 @@ footer p{
     color:#cbd5e1;
     font-size:15px;
 }
+.speaker-card,
+.price-card,
+.hero-btn,
+.btn,
+.social-icons a,
+button{
+    transition:all .3s ease;
+}
+
+button{
+    cursor:pointer;
+    font-family:'Poppins',sans-serif;
+}
+
+section{
+    scroll-margin-top:90px;
+}
+
+.faq{
+    padding:100px 8%;
+    background:#ffffff;
+}
+
+.faq h2{
+    text-align:center;
+    font-size:42px;
+    color:#0f172a;
+    margin-bottom:15px;
+}
+
+.faq-subtitle{
+    text-align:center;
+    color:#64748b;
+    margin-bottom:50px;
+    font-size:18px;
+}
+
+.faq-box{
+    max-width:850px;
+    margin:auto;
+}
+
+.faq-box details{
+    background:#f8fafc;
+    margin-bottom:18px;
+    border-radius:12px;
+    padding:20px 25px;
+    box-shadow:0 6px 20px rgba(0,0,0,.05);
+    transition:.3s;
+}
+
+.faq-box details:hover{
+    transform:translateY(-3px);
+}
+
+.faq-box summary{
+    cursor:pointer;
+    font-size:18px;
+    font-weight:600;
+    color:#0f172a;
+    list-style:none;
+}
+
+.faq-box summary::-webkit-details-marker{
+    display:none;
+}
+
+.faq-box summary::after{
+    content:"+";
+    float:right;
+    font-size:22px;
+    color:#2563eb;
+}
+
+.faq-box details[open] summary::after{
+    content:"−";
+}
+
+.faq-box p{
+    margin-top:15px;
+    color:#64748b;
+    line-height:1.8;
+}
