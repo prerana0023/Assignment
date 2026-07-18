@@ -522,3 +522,56 @@ section{
     color:#64748b;
     line-height:1.8;
 }
+.sponsors{
+    padding:100px 8%;
+    background:#ffffff;
+    text-align:center;
+}
+
+.sponsors h2{
+    font-size:42px;
+    color:#0f172a;
+    margin-bottom:15px;
+}
+
+.sponsor-subtitle{
+    color:#64748b;
+    font-size:18px;
+    margin-bottom:60px;
+}
+
+.sponsor-container{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+}
+
+.sponsor-card{
+    background:#f8fafc;
+    padding:35px 25px;
+    border-radius:16px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.sponsor-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+.sponsor-card i{
+    font-size:50px;
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.sponsor-card h3{
+    font-size:24px;
+    color:#0f172a;
+    margin-bottom:10px;
+}
+
+.sponsor-card p{
+    color:#64748b;
+    font-size:15px;
+}
